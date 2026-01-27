@@ -270,18 +270,18 @@ a {
     align-items: center;
 }
 
-.login-card {
+/*.login-card {
 
     background: #ffffff;
     border: 1.5px solid #000000;
-    /* Matching your screenshot's border */
+    /* Matching your screenshot's border 
     border-radius: 40px;
-    /* High rounding as seen in image */
+    /* High rounding as seen in image 
     padding: 50px 60px;
     max-width: 480px;
     margin: 0 auto;
     text-align: center;
-}
+}*/
 
 .login-card h2 {
     font-size: 2.8rem;
@@ -337,6 +337,7 @@ a {
     text-decoration: underline;
     color: var(--color-text);
 }
+
 
 /* ===============================
    CHECK STATUS PAGE (Scoped CSS)
@@ -417,4 +418,5 @@ a {
     .check-status-page .card h2 {
         font-size: 1.6rem;
     }
-}
+
+
