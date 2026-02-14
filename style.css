@@ -1256,7 +1256,7 @@ main.privacy-container .policy-card.highlight li {
 
 /* CLICK MAGIC ✨ */
 .faq-item input:checked ~ .faq-answer {
-    max-height: 300px;
+    max-height: 1000px;
     padding: 15px 20px;
 }
 
@@ -1265,6 +1265,47 @@ main.privacy-container .policy-card.highlight li {
     background: #0f4c81;
     color: #ffffff;
 }
+
+/* ===== Responsive FAQ ===== */
+
+@media (max-width: 768px) {
+
+    .faq-container {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+
+    .faq-page-title h1 {
+        font-size: 22px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+        padding: 14px 16px;
+    }
+
+    .faq-answer {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .faq-container {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    .faq-question {
+        font-size: 13px;
+        padding: 12px;
+    }
+
+    .faq-answer {
+        font-size: 12.5px;
+    }
+}
+
 
 /* ====== BOOK TOKEN PAGE ======= */
 .book-token-page {
